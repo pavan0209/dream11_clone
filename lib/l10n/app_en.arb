@@ -1,0 +1,9 @@
+{
+    "lbl_register": "Register",
+    "lbl_login": "Login",
+    "lbl_reset_password": "Reset Password",
+    "lbl_welcome": "Welcome!",
+    "lbl_password": "Password",
+    "lbl_email": "Email",
+    "lbl_full_name": "Full name"
+}
