@@ -22,7 +22,43 @@ dev_dependencies:
   auto_route_generator: ^9.0.0
   flutter_lints: ^4.0.0
   build_runner: ^2.4.13
+  flutter_launcher_icons: ^0.14.3
+  url_launcher: ^6.3.0
 
 flutter:
   generate: true
   uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto-Thin.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto-SemiBold.ttf
+          weight: 600
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/dream11_logo.png"
+  image_path_ios: "assets/dream11_logo.png"
+  min_sdk_android: 21  
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: '#E00000'
+  image: assets/splash.png
+  android: true
+  ios: true
+  ios_content_mode: center
+  android_12:
+    image: assets/splash.png
+    icon_background_color: "#E00000"
+  web: false

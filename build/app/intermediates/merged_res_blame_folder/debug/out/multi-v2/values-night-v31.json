@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dell/.gradle/daemon/8.3/com.example.dream11_clone.app-mergeDebugResources-25:/values-night-v31/values-night-v31.xml",
+            "map": [
+                {
+                    "source": "/home/dell/Pavan_Self/dream11_clone/android/app/src/main/res/values-night-v31/styles.xml",
+                    "from": {
+                        "startLines": "3,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,1046",
+                        "endLines": "10,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "695,1210"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,583",
+                        "endLines": "9,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "578,747"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.dream11_clone.app-mergeDebugResources-25:/values-night-v31/values-night-v31.xml",
+            "map": [
+                {
+                    "source": "/home/dell/Pavan_Self/dream11_clone/android/app/src/main/res/values-night-v31/styles.xml",
+                    "from": {
+                        "startLines": "3,-1",
+                        "startColumns": "4,-1",
+                        "startOffsets": "172,-1",
+                        "endLines": "11,-1",
+                        "endColumns": "12,-1",
+                        "endOffsets": "777,-1"
+                    },
+                    "to": {
+                        "startLines": "2,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,665",
+                        "endLines": "10,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "660,829"
+                    }
+                }
+            ]
+        }
+    ]
+}
